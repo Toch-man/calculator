@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <style type="text/css">
+        body,html{
+            box-sizing: border-box;
+            margin:0px;
+            padding: 0px;
+        }
+        #container{
+            width:220px;
+            height:170px;
+            margin: 50px auto;
+            border-color: blue;
+            border-width: 15px;
+            padding:10px;
+        }
+        button{
+            width:50px;
+            height:20px;
+        }
+        #display{
+            height:50px;
+            width:200px;
+            border-color:blue;
+            border-width: 5px;
+            font-size: larger;
+            color:black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="display"></div>
+        <span> <button id="backspace" value="10">x</button></span>
+        <div id="btn">
+            <button id="9" class="btnNumbers" value="9" >9</button>
+            <button id="8" class="btnNumbers" value="8" >8</button>
+            <button id="7" class="btnNumbers" value="7" >7</button>
+            <button id="times" class="btnOperators" value=* >*</button><br>
+            <button  id="6" class="btnNumbers" value="6" >6</button>
+            <button  id="5" class="btnNumbers" value="5" >5</button>
+            <button  id="4" class="btnNumbers" value="4" >4</button>
+            <button  id="divide" class="btnOperators" value=/ >/</button><br>
+            <button  id="3" class="btnNumbers" value="3" >3</button>
+            <button  id="2" class="btnNumbers" value="2" >2</button>
+            <button  id="1" class="btnNumbers" value="1" >1</button>
+            <button  class="btnOperators" id="equals" >=</button><br>
+            <button  id="plus" class="btnOperators" value=+ >+</button>
+            <button  id="0" class="btnNumbers" value="0" >0</button>
+            <button  id="minus" class="btnOperators" value=->-</button>
+            <button  id="mod" class="btnOperators" value=% >%</button><br>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
